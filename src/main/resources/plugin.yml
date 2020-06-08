@@ -1,0 +1,12 @@
+main: me.fps.simplejoin.SimpleJoin
+
+version: 1.0
+
+name: SimpleJoin
+
+softdepend: [PlaceholderAPI]
+
+
+commands:
+  simplejoin:
+    description: principal command
