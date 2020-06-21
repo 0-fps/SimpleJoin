@@ -12,21 +12,19 @@ import java.io.File;
 
 public class SimpleJoin extends JavaPlugin {
     public String ConfigRute;
-    PluginDescriptionFile pdffile = getDescription();
-    public String version = ChatColor.BLUE+"["+pdffile.getVersion()+ChatColor.BLUE+"]";
-    public String name = ChatColor.RED+"["+pdffile.getName()+ChatColor.RED+"]";
+   
 
     @Override
     public void onEnable (){
 
-        Bukkit.getConsoleSender().sendMessage(name+" has been enabled (version: "+version+")");
+        Bukkit.getConsoleSender().sendMessage(name+" has been enabled");
         registerCommands();
         registerConfig();
         registerEvents();
     }
     @Override
     public void onDisable(){
-        Bukkit.getConsoleSender().sendMessage(name+" has been disabled (version: "+version+")");
+        Bukkit.getConsoleSender().sendMessage(name+" has been disabled");
 
     }
     public void registerCommands(){
