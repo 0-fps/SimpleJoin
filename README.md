@@ -1,0 +1,2 @@
+# SimpleJoin
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7ecb67e2d7c04199b24eb97705436a9b)](https://app.codacy.com/manual/0-fps/SimpleJoin?utm_source=github.com&utm_medium=referral&utm_content=0-fps/SimpleJoin&utm_campaign=Badge_Grade_Dashboard)
